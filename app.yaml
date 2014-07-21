@@ -1,0 +1,13 @@
+application: hookwood-tango-peter
+version: 3
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /
+  static_dir: www

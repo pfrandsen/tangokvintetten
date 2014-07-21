@@ -1,0 +1,7 @@
+Update site on AppEngine:
+Update version number in app.yaml file; then run:
+~/appengine/appengine-python/appcfg.py update .
+
+Run web server from within www folder
+python -m SimpleHTTPServer 8080
+
